@@ -1,0 +1,21 @@
+body::before {
+    content: "";
+    display: block;
+    height: 72px;
+}
+
+nav {
+    z-index: 100;
+}
+
+@media (min-width:768px) {
+    .img-learn {
+        width: 50%;
+    }
+}
+
+@media (min-width:768px) {
+    .email-input {
+        width: 50%;
+    }
+}
